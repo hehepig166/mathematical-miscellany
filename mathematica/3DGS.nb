@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    256478,       4759]
-NotebookOptionsPosition[    254471,       4719]
-NotebookOutlinePosition[    254944,       4737]
-CellTagsIndexPosition[    254901,       4734]
+NotebookDataLength[    256494,       4758]
+NotebookOptionsPosition[    254486,       4718]
+NotebookOutlinePosition[    254960,       4736]
+CellTagsIndexPosition[    254917,       4733]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -966,7 +966,7 @@ Cell[BoxData[
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`\[Theta]$$], 0, "Rotation Angle"}, 0, 2 Pi}, {{
        Hold[$CellContext`s$$], 1, "Scaling Factor"}, 0.1, 2}}, 
-    Typeset`size$$ = {252., {125., 127.}}, Typeset`update$$ = 0, 
+    Typeset`size$$ = {360., {179., 183.283540146206}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
@@ -997,7 +997,7 @@ $CellContext`plot$ =
           2 Pi, Appearance -> 
          "Labeled"}, {{$CellContext`s$$, 1, "Scaling Factor"}, 0.1, 2, 
          Appearance -> "Labeled"}}, "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{291., {169., 173.}},
+     ImageSizeCache->{408., {233., 239.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -4472,15 +4472,14 @@ Cell[BoxData[{
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`qx$$ = -0.52, $CellContext`qy$$ = 
-    0.16999999999999993`, $CellContext`sx$$ = 
-    0.45000000000000007`, $CellContext`sy$$ = 
-    0.5700000000000001, $CellContext`sz$$ = 
-    1, $CellContext`\[Theta]$$ = -0.7162831250184727, \
-$CellContext`\[CurlyPhi]$$ = 2.312212193042088, Typeset`show$$ = True, 
-    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-    "\"untitled\"", Typeset`specs$$ = {{{
+   DynamicModuleBox[{$CellContext`qx$$ = 
+    0.8500000000000001, $CellContext`qy$$ = -0.5700000000000001, \
+$CellContext`sx$$ = 1.735, $CellContext`sy$$ = 
+    1.3450000000000002`, $CellContext`sz$$ = 1, $CellContext`\[Theta]$$ = 
+    0.2513274122871838, $CellContext`\[CurlyPhi]$$ = -1.1686724671354027`, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`\[Theta]$$], 0, "X Rotation Angle"}, -Pi, Pi}, {{
        Hold[$CellContext`\[CurlyPhi]$$], 0, "Y Rotation Angle"}, -Pi, Pi}, {{
        Hold[$CellContext`sx$$], 1, "X Scaling Factor"}, 0.1, 2}, {{
@@ -4488,7 +4487,7 @@ $CellContext`\[CurlyPhi]$$ = 2.312212193042088, Typeset`show$$ = True,
        Hold[$CellContext`sz$$], 1, "Z Scaling Factor"}, 0.1, 2}, {{
        Hold[$CellContext`qx$$], 0, "query x"}, -2, 2}, {{
        Hold[$CellContext`qy$$], 0, "query y"}, -2, 2}}, Typeset`size$$ = {
-    560., {267., 271.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    560., {267.21, 271.71}}, Typeset`update$$ = 0, Typeset`initDone$$, 
     Typeset`skipInitDone$$ = True}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
@@ -4599,7 +4598,7 @@ $CellContext`graphics5 = Plot[
          Appearance -> "Labeled"}, {{$CellContext`qx$$, 0, "query x"}, -2, 2, 
          Appearance -> "Labeled"}, {{$CellContext`qy$$, 0, "query y"}, -2, 2, 
          Appearance -> "Labeled"}}, "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{599., {362., 366.}},
+     ImageSizeCache->{596., {349.25, 353.75}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -4717,8 +4716,8 @@ Cell[BoxData[
  CellLabel->"Out[59]=",ExpressionUUID->"bea3ebf6-bfc1-40dc-ba36-65225aa433b7"]
 }, Open  ]]
 },
-WindowSize->{1302, 971},
-WindowMargins->{{236, Automatic}, {-2, Automatic}},
+WindowSize->{1428., 737.25},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules->{"TryRealOnly" -> False},
 Magnification:>0.7 Inherited,
 FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 7, 2020)",
@@ -4741,25 +4740,25 @@ Cell[580, 22, 891, 23, 33, "Input",ExpressionUUID->"601dc388-6588-4ced-ae86-bea3
 Cell[1474, 47, 49176, 821, 178, 32418, 545, "CachedBoxData", "BoxData", "Output",ExpressionUUID->"db6a8215-5d8d-4605-a718-ec50277fc430"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[50687, 873, 3396, 84, 116, "Input",ExpressionUUID->"49552466-7fbe-4ff0-a2b6-3898b77f9863"],
-Cell[54086, 959, 2715, 52, 356, "Output",ExpressionUUID->"4e045a6e-6750-4365-8ff9-30870fccf7fb"]
+Cell[50687, 873, 3396, 84, 117, "Input",ExpressionUUID->"49552466-7fbe-4ff0-a2b6-3898b77f9863"],
+Cell[54086, 959, 2727, 52, 343, "Output",ExpressionUUID->"4e045a6e-6750-4365-8ff9-30870fccf7fb"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[56838, 1016, 2865, 79, 151, "Input",ExpressionUUID->"d62df801-1d51-495a-b7f1-3fd575713d96"],
-Cell[59706, 1097, 164356, 2936, 330, "Output",ExpressionUUID->"b490a976-2197-4458-9cdb-9f8ccfed79fe"]
+Cell[56850, 1016, 2865, 79, 151, "Input",ExpressionUUID->"d62df801-1d51-495a-b7f1-3fd575713d96"],
+Cell[59718, 1097, 164356, 2936, 329, "Output",ExpressionUUID->"b490a976-2197-4458-9cdb-9f8ccfed79fe"]
 }, Open  ]],
-Cell[224077, 4036, 253, 5, 22, "Input",ExpressionUUID->"b77d8bc3-fdf9-4fdb-839e-fc66419c756d"],
+Cell[224089, 4036, 253, 5, 19, "Input",ExpressionUUID->"b77d8bc3-fdf9-4fdb-839e-fc66419c756d"],
 Cell[CellGroupData[{
-Cell[224355, 4045, 19397, 424, 1147, "Input",ExpressionUUID->"768660ae-149c-4003-8aee-2347234321f0"],
-Cell[243755, 4471, 7438, 146, 794, "Output",ExpressionUUID->"696e0729-c4cc-47f6-afb8-b58aababea99"]
+Cell[224367, 4045, 19397, 424, 1176, "Input",ExpressionUUID->"768660ae-149c-4003-8aee-2347234321f0"],
+Cell[243767, 4471, 7441, 145, 716, "Output",ExpressionUUID->"696e0729-c4cc-47f6-afb8-b58aababea99"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[251230, 4622, 1290, 34, 86, "Input",ExpressionUUID->"7bf2f002-ec93-4df1-ad3f-d079120fab2e"],
-Cell[252523, 4658, 713, 22, 24, "Output",ExpressionUUID->"28bc2d9f-a3be-4e73-8bb2-291ad513ac66"],
-Cell[253239, 4682, 489, 13, 27, "Output",ExpressionUUID->"72f0eb06-f248-4c1d-b195-a13a1157f11c"],
-Cell[253731, 4697, 152, 2, 24, "Output",ExpressionUUID->"87b35ac8-b8a8-4d06-8c2d-953c0e6c5212"],
-Cell[253886, 4701, 241, 5, 24, "Output",ExpressionUUID->"e2367b85-6c63-4972-9790-8caedd3c9662"],
-Cell[254130, 4708, 325, 8, 24, "Output",ExpressionUUID->"bea3ebf6-bfc1-40dc-ba36-65225aa433b7"]
+Cell[251245, 4621, 1290, 34, 86, "Input",ExpressionUUID->"7bf2f002-ec93-4df1-ad3f-d079120fab2e"],
+Cell[252538, 4657, 713, 22, 23, "Output",ExpressionUUID->"28bc2d9f-a3be-4e73-8bb2-291ad513ac66"],
+Cell[253254, 4681, 489, 13, 27, "Output",ExpressionUUID->"72f0eb06-f248-4c1d-b195-a13a1157f11c"],
+Cell[253746, 4696, 152, 2, 23, "Output",ExpressionUUID->"87b35ac8-b8a8-4d06-8c2d-953c0e6c5212"],
+Cell[253901, 4700, 241, 5, 23, "Output",ExpressionUUID->"e2367b85-6c63-4972-9790-8caedd3c9662"],
+Cell[254145, 4707, 325, 8, 24, "Output",ExpressionUUID->"bea3ebf6-bfc1-40dc-ba36-65225aa433b7"]
 }, Open  ]]
 }
 ]
