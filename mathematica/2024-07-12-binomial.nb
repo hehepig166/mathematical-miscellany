@@ -1,0 +1,106 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3105,         96]
+NotebookOptionsPosition[      2623,         79]
+NotebookOutlinePosition[      3026,         95]
+CellTagsIndexPosition[      2983,         92]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"ClearAll", "[", "\"\<Global`*\>\"", "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"a", ":=", 
+   RowBox[{
+    RowBox[{"Sum", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Binomial", "[", 
+        RowBox[{"n", ",", " ", "x"}], "]"}], "*", 
+       RowBox[{"Binomial", "[", 
+        RowBox[{"m", ",", " ", 
+         RowBox[{"r", "-", "1", "-", "x"}]}], "]"}]}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", "0", ",", "n"}], "}"}]}], "]"}], " ", "+", " ", 
+    RowBox[{"n", " ", "*", " ", 
+     RowBox[{"Binomial", "[", 
+      RowBox[{
+       RowBox[{"n", "+", "m", "-", "1"}], ",", " ", 
+       RowBox[{"r", "-", "2"}]}], "]"}]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"b", ":=", 
+    RowBox[{"Sum", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Binomial", "[", 
+        RowBox[{"n", ",", " ", "k"}], "]"}], " ", "*", " ", 
+       RowBox[{"Binomial", "[", 
+        RowBox[{"m", ",", " ", 
+         RowBox[{"r", "-", "1", "-", "k"}]}], "]"}], "*", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", "k"}], ")"}]}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"k", ",", "0", ",", "n"}], "}"}]}], "]"}]}], " ", ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{"Assuming", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"n", "+", "1"}], "\[LessEqual]", "r"}], ",", 
+     RowBox[{"r", "\[LessEqual]", 
+      RowBox[{"n", "+", "m"}]}]}], "}"}], ",", 
+   RowBox[{"FullSimplify", "[", 
+    RowBox[{"a", "-", "b"}], "]"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.929767269664008*^9, 3.929767519497265*^9}, {
+  3.9297675873861957`*^9, 3.929767604976081*^9}},
+ CellLabel->"In[41]:=",ExpressionUUID->"441e172f-f6fa-48c5-98cc-101b46ba7e0c"],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{
+  3.9297673467929916`*^9, 3.929767386730988*^9, {3.929767432307334*^9, 
+   3.929767498528694*^9}, 3.9297675292833843`*^9, 3.929767612274146*^9},
+ CellLabel->"Out[44]=",ExpressionUUID->"5cebfa24-0fc9-4a86-bea7-f3c2f346d7b9"]
+}, Open  ]]
+},
+WindowSize->{759, 813},
+WindowMargins->{{246, Automatic}, {-44, Automatic}},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 7, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"05695fb8-200b-40db-83c8-f8a6bbc64639"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1752, 48, 105, "Input",ExpressionUUID->"441e172f-f6fa-48c5-98cc-101b46ba7e0c"],
+Cell[2335, 72, 272, 4, 32, "Output",ExpressionUUID->"5cebfa24-0fc9-4a86-bea7-f3c2f346d7b9"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
